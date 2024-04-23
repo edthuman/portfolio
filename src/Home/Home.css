@@ -1,0 +1,124 @@
+@media screen and (max-width: 625px){
+    h1 {
+        font-size: 5.5em;
+    }
+    #software-dev-text {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 625px){
+    h1 {
+        font-size: 7em;
+    }
+}
+
+@media screen and (min-width: 625px) and (max-width: 700px){
+    #software-dev-text {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 700px){
+    #software-dev-text {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #scroll-down-text {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px){
+    #scroll-down-text {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 850px){
+    #scroll-down-text {
+        font-size: 2em;
+    }
+}
+
+h1 {
+    font-weight: 700;
+    color: aliceblue;
+    width: 100%;
+    margin: 0;
+    padding: 0 0.5em;
+}
+
+#home {
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#home-footer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.home-text {
+    width: 100%;
+    color: aliceblue;
+    margin: 0;
+}
+
+#software-dev-text {
+    font-weight: 700;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+}
+
+#scroll-down-text {
+    font-weight: 600;
+    padding: 0 1em;
+}
+
+#down-arrow {
+    font-size: 2em;
+    font-weight: 550;
+    margin: 0;
+}
+
+#links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 1;
+}
+
+.social-link {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    padding: 0.5em 0;
+}
+
+.social-logo {
+    width: 2.5em;
+    height: 100%;
+    object-fit: contain;
+}
+
+#linkedin-link {
+    margin-right: 0.35em;
+}
+
