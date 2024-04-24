@@ -1,0 +1,52 @@
+#about {
+    background-color: rgb(222, 119, 119);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    color: white;
+}
+
+h2 {
+    font-size: 9vh;
+    font-weight: 725;
+    height: 10%;
+    margin: 0;
+}
+
+#about-body {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    text-align:center;
+}
+
+.about-text {
+    font-size: 2.8vh;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 1em;
+    margin: 0;
+}
+
+.about-links {
+    color: white;
+}
+
+.about-links:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 675px){
+    .about-text {
+        font-size: 3.3vh;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .about-text {
+        font-size: 3.8vh;
+    }
+}
