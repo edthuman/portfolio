@@ -65,6 +65,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    pointer-events: none;
 }
 
 #home-footer {
@@ -72,9 +73,6 @@ h1 {
     z-index: -1;
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     align-content: flex-end;
     background-color: rgb(32, 32, 32);
 }
@@ -104,10 +102,12 @@ h1 {
 
 #links {
     position: fixed;
+    align-self: flex-start;
+    justify-content: end;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    background-color: bisque;
+    flex-direction: row;
+    background-color: transparent;
 }
 
 .social-link {
