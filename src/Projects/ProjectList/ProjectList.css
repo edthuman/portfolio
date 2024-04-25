@@ -1,0 +1,6 @@
+#projects-list {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+}

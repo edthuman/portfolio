@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "name": "Portfolio Website",
+            "created": "April 2024",
+            "briefDescription": "A portfolio website detailing the projects I've made",
+            "img": "portfolio",
+            "altText": "The portfolio website's home page",
+            "fullDescription": "The wesbite you're on right now!\n\nThis is a fullscreen scrolling website that seeks to tell people about myself.\n\nIt begins with a brief overview of who I am and how I got started in the tech sector, then going on to display all of the porjects that I have completed. With the ability to click on a project to read further information about it.\n\nAfter this, there is a page that shows an overview of what technologies and frameworks I have experience using, followed by a hobbies page, and then ending on a contact page.\n\nThe website was built using Vite with React, written in JavaScript and JSX, with CSS styling.",
+            "githubLink": "https://github.com/edthuman/portfolio",
+            "hosted": false
+        },
+        {
+            "name": "EcoQuest",
+            "created": "March 2024",
+            "briefDescription": "A litter-picking app created as a group project at Northcoders",
+            "img": "ecoquest",
+            "altText": "The EcoQuest app's home tab",
+            "fullDescription": "Not written yet",
+            "githubLink": "https://github.com/tchan70/EcoQuest",
+            "hosted": false
+        },
+        {
+            "name": "NC News Website",
+            "created": "March 2024",
+            "briefDescription": "A website of articles and comments that users can log into",
+            "img": "nc-news-site",
+            "altText": "NC News' home page",
+            "fullDescription": "Not written yet",
+            "githubLink": "https://github.com/edthuman/fe-nc-news",
+            "hosted": true,
+            "hostedLink": "https://nc-new-edthuman.netlify.app"
+        },
+        {
+            "name": "NC News API",
+            "created": "February 2024",
+            "briefDescription": "An API that interacts with a database of articles, comments, and users",
+            "img": "nc-news-api",
+            "altText": "Returned JSON from NC News API's '/api' endpoint, which describes the API's endpoints",
+            "fullDescription": "Not written yet",
+            "githubLink": "https://github.com/edthuman/nc_news",
+            "hosted": true,
+            "hostedLink": "https://northcoders-news-c5lb.onrender.com/api"
+        }
+    ]
+}
