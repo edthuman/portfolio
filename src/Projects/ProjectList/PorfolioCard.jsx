@@ -21,14 +21,14 @@ const customStyles = {
   };
 
 function ProjectCard({project}){
-    const [modalIsOpen, setIsOpen] = React.useState(false);
+    const [modalIsOpen, setModalIsOpen] = React.useState(false);
 
     function openModal() {
-    setIsOpen(true);
+    setModalIsOpen(true);
     }
 
     function closeModal() {
-    setIsOpen(false);
+    setModalIsOpen(false);
     }
 
     return <>
