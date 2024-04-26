@@ -1,6 +1,8 @@
 #projects-list {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     height: 70%;
     width: 100%;
-    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
