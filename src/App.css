@@ -12,7 +12,7 @@ main {
   scroll-snap-stop: always;
 }
 
-article {
+.page {
   display: flex;
   flex-wrap: wrap;
   scroll-snap-align: start;

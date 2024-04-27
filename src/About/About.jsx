@@ -1,7 +1,7 @@
 import "./About.css"
 
 function About() {
-    return <article id="about">
+    return <section id="about" className="page">
                 <h2>About Me</h2>
             <section id="about-body">
                 <p className="about-text">I love cats!</p>
@@ -11,7 +11,7 @@ function About() {
                 <p className="about-text">Since graduating, I have been applying for my first software development role, whilst using online resources to build on my learning, and working on projects to practice and develop my skills.</p>
                 <p className="about-text">To see what I've been working on, scroll down!</p>
             </section>
-        </article>
+        </section>
 }
 
 export default About

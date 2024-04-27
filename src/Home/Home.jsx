@@ -1,13 +1,15 @@
 import "./Home.css"
+import githubLogo from "../assets/github-logo.png"
+import linkedInLogo from "../assets/linkedin-logo.png"
 
 function Home () {
-    return <article>
+    return <section className="page">
         <section id="links">
             <a className="social-link" href="https://github.com/edthuman" target="blank">
-                <img src="github-logo.png" alt="GitHub logo" className="social-logo"/>
+                <img src={githubLogo} alt="GitHub logo" className="social-logo"/>
             </a>
             <a className="social-link" href="https://www.linkedin.com/in/edwardirvine" target="blank" id="linkedin-link">
-                <img src="linkedin-logo.png" alt="LinkedIn logo" className="social-logo" />
+                <img src={linkedInLogo} alt="LinkedIn logo" className="social-logo" />
             </a>
         </section>
         <section id="home">
@@ -18,7 +20,7 @@ function Home () {
                 <p className="home-text" id ="scroll-down-text">Scroll down to learn more and see what I've made!</p>
                 <p className="home-text" id="down-arrow">↓</p>
         </footer>
-    </article>
+    </section>
 }
 
 export default Home

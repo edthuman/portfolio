@@ -1,0 +1,80 @@
+{
+    "projects": [
+
+        {
+            "name": "Portfolio Website",
+            "briefDescription": "A portfolio website detailing the projects I've made",
+            "img": "portfolio",
+            "altText": "The portfolio website's home page",
+            "fullDescription": {"paragraphs": [
+                "The website you're currently on!",
+                "A fullscreen scrolling website that provides an introduction to myself.", 
+                "After an brief introductory page, it provides a brief overview of who I am and how I got started in tech.",
+                "Then the projects page shows previews for all of the projects I've completed. Further information on each project is displayed when a user clicks on its preview.",
+                "There is then a page covering the technologies and frameworks I have experience using, followed by a hobbies section, and then the final page gives methods of getting in contact with me.",
+                "The website was built using Vite with React, written in JavaScript and JSX, with CSS styling.",
+                "The modal windows on the projects page were created using a component from the react-modal API."
+            ]},
+            "githubLink": "https://github.com/edthuman/portfolio",
+            "hosted": false
+        },
+        {
+            "name": "EcoQuest",
+            "briefDescription": "A litter-picking app created as a group project at Northcoders",
+            "img": "ecoquest",
+            "altText": "The EcoQuest app's home tab",
+            "fullDescription": {"paragraphs": [
+                "The EcoQuest app was made as a final project during my time at Northcoders, in a team of 6.",
+                "The first time a user opens the app, they will be invited to sign up with their email. Once their account is verified by clicking the link sent to their email, they are then able to create a password. verified log in with an email and password.",
+                "After logging in, users can navigate between several tabs. By default, they begin on the home tab, which has a button for users to click whenever they pick up litter.", "Each piece of litter logged gives a user one point, and the home tab includes a Daily Quest that offers bonus points upon completion.",
+                "Next to home is the user tab. Here a user can see their current points total, change their username, and log out of or delete their account.",
+                "The leaderboard tab display either an all-time or daily points leaderboard, which bring a sense of friendly competition.",
+                "The final tab is the map tab, which shows users a heatmap of litter pick-ups, with a slider to change the timeframe covered by the heatmap.",
+                "The front-end was built using React Native and written in JavaScript. Tab navigation was made possible with the React Navigation library, and the heatmap utilised btoh React Native Maps and Google Maps.",
+                "For the back-end, Firebase was used, with user authentication handled by Firebase Authentication, and a Firebase Realtime Database used to store user data and logged litter locations.",
+                "During development, Expo was used to watch live updates occur within the app. Testing was conducted on physical phones, as well as Xcode and Android Studio emulators."
+                ]
+            },
+            "githubLink": "https://github.com/tchan70/EcoQuest",
+            "hosted": true,
+            "hostedLink": "https://northcoders.com/project-phase/ecoquest"
+        },
+        {
+            "name": "NC News Website",
+            "briefDescription": "A website of articles and comments that users can log into",
+            "img": "nc-news-site",
+            "altText": "NC News' home page",
+            "fullDescription": {"paragraphs": [
+                "The NC News website is a front-end interface for the NC News API.",
+                "From the home page, users see a list of articles. Articles can be filtered by topic, and sorted by either creation date, comment count, or vote count.",
+                "When an article has been selected, the full article can be read and voted on, and any comments posted on it can be seen.",
+                "On every page, there is a link directing to the login page. Users log in by simply entering a username.",
+                "Once logged in, users are able to add or vote on comments, as well being able to delete any previous comments from their account.",
+                "The site was created using Vite and React, written in JavaScript, JSX, and styled using CSS.",
+                "Netlify was used to build and host the site."
+                ]
+            },
+            "githubLink": "https://github.com/edthuman/fe-nc-news",
+            "hosted": true,
+            "hostedLink": "https://nc-new-edthuman.netlify.app"
+        },
+        {
+            "name": "NC News API",
+            "briefDescription": "An API that interacts with a database of articles, comments, and users",
+            "img": "nc-news-api",
+            "altText": "JSON from NC News API's '/api' endpoint, which describes the API's endpoints",
+            "fullDescription": {"paragraphs": [
+                "NC News is an API that interacts with a relational database of articles.",
+                "Every article is related to a topic, and can have related comments. Comments are each related to a user.",
+                "The API allows a variety of GET, POST, PATCH, and DELETE requests to its endpoints. Full details of what request types can be made to each endpoint are shown in the /api endpoints, which also details the return values from requests, and queries that can be applied.",
+                "Seeding files for the databases and the app files were written in JavaScript. Interaction with the databases was performed with PSQL.",
+                "Testing was conducted using Jest and SuperTest.",
+                "The production database is hosted on ElephantSQL, and the API is hosted by Render."
+                ]
+            },
+            "githubLink": "https://github.com/edthuman/nc_news",
+            "hosted": true,
+            "hostedLink": "https://northcoders-news-c5lb.onrender.com/api"
+        }
+    ]
+}
