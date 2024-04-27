@@ -4,7 +4,7 @@ import "./Projects.css"
 function Projects() {
     return <section id="projects" className="page">
             <h2>Projects</h2>
-            <p id="projects-subheading">
+            <p className="subheading">
                 Click on a project preview to read more
             </p>
             <ProjectList/>
