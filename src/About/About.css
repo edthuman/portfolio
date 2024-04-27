@@ -34,7 +34,7 @@ h2 {
     color: white;
 }
 
-.about-links:focus {
+.about-links:hover {
     color: black;
     text-decoration: none;
 }
