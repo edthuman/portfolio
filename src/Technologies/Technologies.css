@@ -1,0 +1,14 @@
+#technologies {
+    position: relative;
+    background-color: rgb(131, 205, 136);
+}
+
+#technologies-heading {
+    font-size: 8.5vh;
+}
+
+@media screen and (min-width: 600px){
+    #technologies-heading {
+        font-size: 9vh;
+    }
+}

@@ -14,7 +14,7 @@
 
 .project-card:hover {
     background-color: rgb(148, 147, 157);
-    h3, p { 
+    .project-card-title, p { 
         color: rgb(202, 202, 202);
     }
     img {
@@ -23,7 +23,7 @@
     margin-top: 2em;
 }
 
-h3 {
+.project-card-title {
     width: 100%;
     margin: 0.75em 0;
     text-align: center;
@@ -107,13 +107,13 @@ h4 {
     .project-card:hover {
         margin-top: 1em; 
     }
-    h3 {
+    .project-card-title {
         font-size: 11vh;
     }
 }
 
 @media screen and (min-height: 270px){
-    h3 {
+    .project-card-title {
         font-size: 8vh;
     }
     .project-image-preview {
@@ -122,13 +122,13 @@ h4 {
 }
 
 @media screen and (min-height: 360px){
-    h3 {
+    .project-card-title {
         font-size: 6vh;
     }
 }
 
 @media screen and (min-height: 450px){
-    h3 {
+    .project-card-title {
         font-size: 5vh;
     }
     .project-description {
@@ -139,7 +139,7 @@ h4 {
 }
 
 @media screen and (min-height: 600px){
-    h3 {
+    .project-card-title {
         font-size: 4vh;
     }
     .project-description {

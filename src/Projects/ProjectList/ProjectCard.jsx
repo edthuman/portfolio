@@ -34,7 +34,7 @@ function ProjectCard({project}){
 
     return <>
     <button className="project-card" onClick={openModal}>
-        <h3>{project.name}</h3>
+        <h3 className="project-card-title">{project.name}</h3>
         <img src={`${project.img}.png`} alt={project.altText} className="project-image-preview"/>
         <p className="project-description">{project.briefDescription}</p>
     </button>
