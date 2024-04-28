@@ -1,0 +1,44 @@
+{   
+    "technologies": [
+        {
+            "type": "Back-End",
+            "items": [
+                "SQL",
+                "PSQL",
+                "Firebase Authentication",
+                "Firebase Realtime Database"
+            ]
+        },
+        {
+            "type": "Front-End",
+            "items": [
+                "HTML",
+                "CSS",
+                "React",
+                "React Native"
+            ]
+        },
+        {
+            "type": "Hosting",
+            "items": [
+                "Netlify",
+                "Render"
+            ]
+        },
+        {
+            "type": "Languages",
+            "items": [
+                "JavaScript (and JSX)"
+            ]
+        },
+        {
+            "type": "Testing",
+            "items": [
+                "Jest",
+                "SuperTest",
+                "Vite",
+                "Expo"
+            ]
+        }    
+    ]
+}
