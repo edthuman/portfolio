@@ -4,7 +4,7 @@
     justify-content: space-around;
     color: white;
     background-color: rgb(109, 104, 161);
-    border-radius: 18%;
+    border-radius: 1rem;
     min-width: 320px;
     max-width: 320px;
     height: 90%;
@@ -86,7 +86,7 @@ h4 {
 .modal-button {
     margin-top: 0.1em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 5%;
+    border-radius: 0.4rem;
     border: solid 2px rgb(226, 62, 62);
     color: rgb(226, 62, 62);
     background-color: rgb(32, 32, 32);
@@ -102,7 +102,7 @@ h4 {
 
 @media screen and (min-height: 200px){
     .project-card {
-        border-radius: 12%;
+        border-radius: 2rem;
     };
     .project-card:hover {
         margin-top: 1em; 
