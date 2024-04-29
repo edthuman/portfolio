@@ -1,7 +1,7 @@
 import "./About.css"
 
 function About() {
-    return <section id="about" className="page">
+    return <section id="about" className="page" tabIndex={0}>
                 <h2>About Me</h2>
             <section id="about-body">
                 <p className="about-text">I love cats!</p>
