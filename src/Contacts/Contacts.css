@@ -1,0 +1,109 @@
+#contacts-page {
+    background-color: rgb(32, 32, 32);
+    align-content: center;
+    gap: 2rem;
+}
+
+#contacts-heading {
+    padding: 0 0.3em;
+    font-size: 10vh;
+}
+
+.contacts-subheading {
+    font-weight: 500;
+    font-size: 6vh;
+    width: 100%;
+    padding: 0 1em;
+    height: 5%;
+    text-align: center;
+    margin: 0;
+}
+
+.contacts-page-link {
+    color: white;
+}
+
+.contacts-page-link:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+@media screen and (min-height: 300px) {
+    #contacts-page {
+        gap: 2.6rem;
+    }
+    
+    #contacts-heading {
+        font-size: 9.5vh;
+    }
+    
+    .contacts-subheading {
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-height: 370px) {
+    #contacts-heading {
+        font-size: 8.5vh;
+    }
+    
+    .contacts-subheading {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (min-height: 410px) {
+    #contacts-heading {
+        font-size: 8vh;
+    }
+}
+
+@media screen and (min-height: 440px) {
+    #contacts-heading {
+        font-size: 7.5vh;
+    }
+}
+
+@media screen and (min-height: 470px) {
+    #contacts-heading {
+        font-size: 7.5vh;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    #contacts-heading {
+        font-size: 6vh;
+        margin-bottom: 7%;
+    }
+    
+    .contacts-subheading {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (min-width: 560px) and (min-height: 470px) {
+    #contacts-heading {
+        margin-bottom: 0.3em;
+    }
+}
+
+@media screen and (min-width: 750px) and (min-height: 600px) {
+    #contacts-heading {
+        font-size: 7.5vh;
+    }
+
+    .contacts-subheading {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (min-width: 850px) and (min-height: 600px) {
+    #contacts-heading {
+        font-size: 9vh;
+    }
+
+    .contacts-subheading {
+        font-size: 4vh;
+    }
+}
