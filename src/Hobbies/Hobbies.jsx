@@ -6,7 +6,7 @@ import FilmsPage from "./FilmsPage"
 import MiscellaneousPage from "./MiscellaneousPage"
 
 function Hobbies() {
-    return <section className="page" id="hobbies-section">
+    return <section className="page" id="hobbies-section" tabIndex={0}>
     <HobbiesTitlePage/>
     <MusicPage/>
     <BooksPage/>
