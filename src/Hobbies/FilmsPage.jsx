@@ -1,7 +1,7 @@
 import "./FilmsPage.css"
 
 function FilmsPage() {
-    return <section className="hobbies-sub-page" id="films-page">
+    return <section className="hobbies-sub-page" id="films-page" tabIndex={0}>
         <h2 className="hobby-heading">Films</h2>
         <p className="hobby-page-text">It's fair to say I'm a bit of a film nerd (translation: I have a Letterboxd <a href="https://letterboxd.com/edthuman" target="blank" className="page-link">account</a>).</p>
         <p className="hobby-page-text">I frequently visit the cinema to see new releases.</p>
