@@ -1,0 +1,28 @@
+#hobbies-title-page {
+    align-content: center;
+}
+
+#hobby-title-page-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17vh;
+    height: 30%;
+    margin: 0;
+}
+
+#hobby-title-page-subheading {
+    padding: 0 1.3em;
+    font-size: 6vh;
+    font-weight: 550;
+}
+
+@media screen and (min-height: 450px) {
+    #hobby-title-page-heading {
+        font-size: 13vh;
+    }
+    
+    #hobby-title-page-subheading {
+        font-size: 4vh;
+    }
+}
