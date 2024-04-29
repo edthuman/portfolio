@@ -17,7 +17,8 @@ const customStyles = {
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
       height: "70%",
-      color: "white"
+      color: "white",
+      padding: "10px 20px"
     },
   };
 
@@ -45,6 +46,7 @@ function ProjectCard({project}){
         >
         <h4>{project.name}</h4>
         <section className="modal-text-area">
+        <p className="modal-tech-stack">Tech used: {project["tech-used"].join(", ")}</p>
             {project.fullDescription.paragraphs.map((paragraph, index) => <p key={`paragraph-${index}`} className="modal-text">{paragraph}</p>)}
             <p className="modal-text">Link to GitHub repo: <a href={project.githubLink} target="blank" className="modal-link">{project.githubLink}</a></p>
             {project.hosted ? <p className="modal-text">Link to {project.name === "EcoQuest" ? "project on the Northcoders website" : "hosted project"}: <a href={project.hostedLink} target="blank" className="modal-link">{project.hostedLink}</a></p> : null}
