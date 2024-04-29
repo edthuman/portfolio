@@ -6,6 +6,14 @@
             "briefDescription": "A portfolio website detailing the projects I've made",
             "img": "portfolio",
             "altText": "The portfolio website's home page",
+            "tech-used": [
+                "React",
+                "Vite",
+                "JavaScript",
+                "JSX",
+                "HTML",
+                "CSS"
+            ],
             "fullDescription": {"paragraphs": [
                 "The website you're currently on!",
                 "A fullscreen scrolling website that provides an introduction to myself.", 
@@ -22,7 +30,14 @@
             "name": "EcoQuest",
             "briefDescription": "A litter-picking app created as a group project at Northcoders",
             "img": "ecoquest",
-            "altText": "The EcoQuest app's home tab",
+            "altText": "EcoQuest app's title and a Daily Quest stating 'Pickup 7 pieces of litter! Pieces left: 7'",
+            "tech-used": [
+                "React Native",
+                "Expo",
+                "JavaScript",
+                "Firebase Authentication",
+                "Firebase Realtime Database"
+            ],
             "fullDescription": {"paragraphs": [
                 "The EcoQuest app was made as a final project during my time at Northcoders, in a team of 6.",
                 "The first time a user opens the app, they will be invited to sign up with their email. Once their account is verified by clicking the link sent to their email, they are then able to create a password. verified log in with an email and password.",
@@ -44,6 +59,14 @@
             "briefDescription": "A website of articles and comments that users can log into",
             "img": "nc-news-site",
             "altText": "NC News' home page",
+            "tech-used": [
+                "React",
+                "Vite",
+                "JavaScript",
+                "JSX",
+                "HTML",
+                "CSS"
+            ],
             "fullDescription": {"paragraphs": [
                 "The NC News website is a front-end interface for the NC News API.",
                 "From the home page, users see a list of articles. Articles can be filtered by topic, and sorted by either creation date, comment count, or vote count.",
@@ -63,6 +86,12 @@
             "briefDescription": "An API that interacts with a database of articles, comments, and users",
             "img": "nc-news-api",
             "altText": "JSON from NC News API's '/api' endpoint, which describes the API's endpoints",
+            "tech-used": [
+                "PSQL",
+                "JavaScript",
+                "Jest",
+                "SuperTest"
+            ],
             "fullDescription": {"paragraphs": [
                 "NC News is an API that interacts with a relational database of articles.",
                 "Every article is related to a topic, and can have related comments. Comments are each related to a user.",
