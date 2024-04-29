@@ -1,0 +1,23 @@
+#miscellaneous-page-heading {
+    font-size: 8vh;
+}
+
+@media screen and (min-width: 700px){
+    #miscellaneous-page-heading {
+        font-size: 10vh;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #miscellaneous-page-heading {
+        font-size: 12vh;
+        margin-bottom: 0.7em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #miscellaneous-page-heading {
+        font-size: 13vh;
+        margin-bottom: 0.7em;
+    }
+}

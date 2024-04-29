@@ -1,0 +1,70 @@
+#hobbies-section {
+    background-color: rgb(196, 135, 194);
+    position: relative;
+    scroll-snap-type: x mandatory;  
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-stop: always;
+}
+
+.hobbies-sub-page {
+    height: 100vh;
+    min-width: 100vw;
+    scroll-snap-align: end;
+    align-content: center;
+}
+
+.hobby-heading {
+    font-size: 13vh;
+    margin-bottom: 0.7em;
+}
+
+.hobby-page-text {
+    padding: 0 1em;
+    font-size: 3.7vh;
+    font-weight: 550;
+}
+
+@media screen and (min-height: 450px) {
+    .hobby-heading {
+        font-size: 9vh;
+        margin-bottom: 0.7em;
+    }
+
+    .hobby-page-text {
+        font-size: 3.2vh;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hobby-heading {
+        font-size: 11vh;
+    }
+
+    .hobby-page-text {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .hobby-heading {
+        font-size: 12vh;
+        margin-bottom: 0.7em;
+    }
+
+    .hobby-page-text {
+        font-size: 4.5vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hobby-heading {
+        font-size: 13vh;
+        margin-bottom: 0.7em;
+    }
+
+    .hobby-page-text {
+        font-size: 5vh;
+    }
+}

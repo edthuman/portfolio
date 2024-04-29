@@ -22,15 +22,6 @@
     margin: 0;
 }
 
-.about-links {
-    color: white;
-}
-
-.about-links:hover {
-    color: black;
-    text-decoration: none;
-}
-
 @media screen and (min-width: 675px){
     .about-text {
         font-size: 3.3vh;
