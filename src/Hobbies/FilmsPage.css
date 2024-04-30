@@ -1,8 +1,29 @@
-#films-page {
-    /* background-color: brown; */
+.film-page-text {
+    padding: 0 1em;
+    font-size: 3.2vh;
+    font-weight: 550;
 }
 
-.films-page-text {
-    font-size: 4vh;
-    font-weight: 550;
+@media screen and (min-height: 450px) {
+    .film-page-text {
+        font-size: 3.1vh;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .film-page-text {
+        font-size: 3.7vh;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .film-page-text {
+        font-size: 4.1vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .film-page-text {
+        font-size: 4.3vh;
+    }
 }
