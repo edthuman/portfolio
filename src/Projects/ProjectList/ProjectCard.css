@@ -31,6 +31,7 @@
 }
 
 .project-image-preview {
+    width: 100%;
     height: 0%;
     object-fit: scale-down;
 }

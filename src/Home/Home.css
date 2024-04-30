@@ -124,6 +124,10 @@ h1 {
     object-fit: contain;
 }
 
+.social-logo:hover {
+    filter: contrast(40%);
+}
+
 #linkedin-link {
     margin-right: 0.35em;
 }
