@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     align-content: space-around;
     text-align: center;
+    padding-bottom: 3em;
 }
 
 .about-text {
