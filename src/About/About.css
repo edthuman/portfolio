@@ -51,6 +51,9 @@
         height: 60%;
         margin-bottom: 5vh;
     }
+    .about-text {
+        font-size: 3vh;
+    }
 }
 
 @media screen and (min-width: 800px){
