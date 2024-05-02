@@ -24,7 +24,8 @@
                 "The modal windows on the projects page were created using a component from the react-modal API."
             ]},
             "githubLink": "https://github.com/edthuman/portfolio",
-            "hosted": false
+            "hosted": true,
+            "hostedLink": "https://edwardirvine.netlify.app/"
         },
         {
             "name": "EcoQuest",
