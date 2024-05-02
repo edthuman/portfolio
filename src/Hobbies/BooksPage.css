@@ -1,0 +1,37 @@
+#books-text-area {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    #books-text-area {
+        height: 60%;
+        margin-bottom: 15%;
+        border: solid white 1px;
+        color: blue;
+    }
+    .books-page-text {
+        font-size: 2.8vh;
+    }
+
+}
+
+@media screen and (max-height: 400px) {
+    #books-text-area{
+        height: 60%;
+    }
+    .books-page-text {
+        font-size: 4.4vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 700px){
+    .books-page-text {
+        font-size: 3.5vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 940px){
+    .books-page-text {
+        font-size: 3.2vh;
+    }
+}

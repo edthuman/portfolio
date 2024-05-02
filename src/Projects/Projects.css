@@ -6,3 +6,51 @@
     padding: 0;
     position: relative;
 }
+
+#projects-heading {
+    font-size: 15vh;
+    margin-top: 0.5em;
+}
+
+#projects-subheading {
+    align-content: center;
+    font-size: 4vh;
+    padding: 3em 1.5em;
+}
+
+@media screen and (min-height: 350px) {
+    #projects-heading {
+        margin-top: 1em;
+        font-size: 10vh;
+        margin-top: 1em;
+    }
+    
+    #projects-subheading {
+        font-size: 3vh;
+        padding-bottom: 0.5rem;
+        padding: 0 1.5em;
+    }
+}
+
+@media screen and (min-height: 525px) and (max-width: 500px){
+    #projects-heading {
+        margin: 0.4em 0 0 0;
+    }
+    #projects-subheading {
+        font-size: 2.5vh;
+        font-weight: 600;
+        height: 5%;
+    }
+}
+
+@media screen and (min-width: 500px){
+    #projects-subheading {
+        padding: 0 1.5em 0.5em 1.5em;
+    }
+}
+
+@media screen and (min-width: 900px){
+    #projects-subheading {
+        padding-bottom: 0;
+    }
+}

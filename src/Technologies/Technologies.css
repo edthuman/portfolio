@@ -4,11 +4,37 @@
 }
 
 #technologies-heading {
-    font-size: 8.5vh;
+    font-size: 8vh;
+    margin-top: 0.4em;
+}
+
+#technologies-subheading {
+    font-size: 3vh;
+    font-weight: 550;
+    padding: 0 1em;
+    height: 4%;
 }
 
 @media screen and (min-width: 600px){
     #technologies-heading {
         font-size: 9vh;
+        height: 11%;
+    }
+}
+
+@media screen and (max-width: 760px) and (min-height: 800px){
+    #technologies-heading {
+        margin-top: 0.6em;
+        font-size: 13vw;
+        height: 7%;
+    }
+    #technologies-subheading {
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-height: 500px) {
+    #technologies-subheading {
+        margin-bottom: 0%;
     }
 }

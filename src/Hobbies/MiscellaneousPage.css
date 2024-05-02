@@ -2,6 +2,20 @@
     font-size: 8vh;
 }
 
+#miscellaneous-text-area {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    #miscellaneous-text-area {
+        height: 60%;
+        margin-bottom: 15%;
+    }
+    .miscellaneous-page-text {
+        font-size: 2.9vh;
+    }
+}
+
 @media screen and (min-width: 700px){
     #miscellaneous-page-heading {
         font-size: 10vh;
@@ -20,4 +34,47 @@
         font-size: 13vh;
         margin-bottom: 0.7em;
     }
+}
+
+@media screen and (max-height: 400px) {
+    #miscellaneous-text-area{
+        height: 60%;
+    }
+    .miscellaneous-page-text {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 490px) and (min-height: 800px){
+    #miscellaneous-page-heading {
+        font-size: 12vw;
+        margin-bottom: 0.7em;
+    }
+    .miscellaneous-page-text {
+        font-size: 2.6vh;
+    } 
+}
+
+@media screen and (min-width: 490px) and (min-height: 800px){
+    #miscellaneous-page-heading {
+        font-size: 11vw;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 800px) {
+    #miscellaneous-page-heading {
+        margin-bottom: 3%;
+    }
+    .miscellaneous-page-text {
+        font-size: 3.5vh;
+    } 
+}
+
+@media screen and (min-width: 800px) and (min-height: 1050px) {
+    #miscellaneous-page-heading {
+        margin-bottom: 3%;
+    }
+    .miscellaneous-page-text {
+        font-size: 3.3vh;
+    } 
 }

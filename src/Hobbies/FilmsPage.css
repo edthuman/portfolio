@@ -4,6 +4,10 @@
     font-weight: 550;
 }
 
+#film-text-area {
+    width: 100%;
+}
+
 @media screen and (min-height: 450px) {
     .film-page-text {
         font-size: 3.1vh;
@@ -25,5 +29,51 @@
 @media screen and (min-width: 1200px){
     .film-page-text {
         font-size: 4.3vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #film-text-area {
+        height: 67%;
+        margin-bottom: 20%;
+    }
+
+    .film-page-text {
+        padding: 0 1em;
+        font-size: 2.75vh;
+        font-weight: 550;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-height: 800px){
+    .film-page-text {
+        font-size: 2.6vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #film-text-area{
+        height: 67%;
+    }
+    .film-page-text {
+        font-size: 3.7vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 800px){
+    #film-page-heading {
+        margin-bottom: 7%;
+    }
+    .film-page-text {
+        font-size: 3.2vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 1100px){
+    #film-page-heading {
+        margin-bottom: 7%;
+    }
+    .film-page-text {
+        font-size: 3vh;
     }
 }
