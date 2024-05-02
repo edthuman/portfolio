@@ -22,14 +22,29 @@
     }
 }
 
+
 @media screen and (max-width: 760px) and (min-height: 800px){
     #technologies-heading {
         margin-top: 0.6em;
-        font-size: 13vw;
+        margin-bottom: 0.1em;
+        font-size: 7vh;
         height: 7%;
     }
     #technologies-subheading {
-        margin-bottom: 5%;
+        font-size: 3vh;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 580px) and (min-height: 800px){
+    #technologies-heading {
+        font-size: 10vw;
+        height: 7%;
+        margin-bottom: 0;
+    }
+    #technologies-subheading {
+        font-size: 5vw;
+        margin-bottom: 0;
     }
 }
 
