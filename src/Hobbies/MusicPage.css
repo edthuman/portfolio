@@ -1,0 +1,28 @@
+#music-text-area {
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    #music-text-area {
+        height: 45%;
+        margin-bottom: 15%;
+    }
+    .music-page-text {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    #music-text-area{
+        height: 55%;
+    }
+    .music-page-text {
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 1100px){
+    #music-page-heading {
+        margin-top: 5%;
+    }
+}
