@@ -48,7 +48,7 @@
     }
     
     .contacts-subheading {
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 }
 
@@ -105,5 +105,51 @@
 
     .contacts-subheading {
         font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-height: 800px) {
+    #contacts-heading {
+        font-size: 4.6vh;
+    }
+
+    .contacts-subheading {
+        font-size: 2.7vh;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-height: 950px) {
+    #contacts-heading {
+        font-size: 4vh;
+    }
+
+    .contacts-subheading {
+        font-size: 2.4vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 800px) {
+    #contacts-heading {
+        font-size: 6.5vh;
+    }
+
+    .contacts-subheading {
+        font-size: 3.3vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 900px) {
+    #contacts-heading {
+        font-size: 5vh;
+    }
+
+    .contacts-subheading {
+        font-size: 2.6vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1260px) {
+    #contacts-heading {
+        margin-bottom: 10%;
     }
 }
