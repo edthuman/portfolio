@@ -63,13 +63,15 @@
 
 @media screen and (max-width: 500px) and (max-height:800px) {
     #miscellaneous-page-heading {
+
         font-size: 12vw;
     }
 }
 
 @media screen and (min-width: 800px) and (min-height: 800px) {
     #miscellaneous-page-heading {
-        margin-bottom: 3%;
+        font-size: 7vw;;
+        margin-bottom: 6%;
     }
     .miscellaneous-page-text {
         font-size: 3.5vh;
