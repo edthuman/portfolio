@@ -93,7 +93,7 @@
                 "SuperTest"
             ],
             "fullDescription": {"paragraphs": [
-                "NC News is an API that interacts with a relational database of articles.",
+                "NC News is a RESTful API that interacts with a relational database of articles.",
                 "Every article is related to a topic, and can have related comments. Comments are each related to a user.",
                 "The API allows a variety of GET, POST, PATCH, and DELETE requests to its endpoints. Full details of what request types can be made to each endpoint are shown in the /api endpoint, which also details the return values from requests, and any queries that can be applied.",
                 "Seeding files for the databases and the app files were written in JavaScript. Interaction with the databases was performed with PSQL.",
