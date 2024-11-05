@@ -1,6 +1,31 @@
 {
     "projects": [
-
+        {
+            "name": "Events Website",
+            "briefDescription": "A website for a community cinema",
+            "img": "events",
+            "altText": "The community cinema website's home page",
+            "tech-used": [
+                "React",
+                "Vite",
+                "TypeScript",
+                "JSX",
+                "HTML",
+                "Tailwind"
+            ],
+            "fullDescription": {"paragraphs": [
+                "A website that displays upcoming events for a community cinema.", 
+                "Users have the option to log in or sign up as either staff or non-staff.", 
+                "Staff users are able to create new events or edit details for existing events.", 
+                "Non-staff users are able to sign up for events, which can be free, pay as you want, or a set price. Once signed up to an event, users are able to add an event to their Google Calendar.",
+                "The website was built with Vite and React, written in TypeScript, and styled with Tailwind.",
+                "The back-end uses Firebase for authentication, with a Firestore database storing event and attendee data.",
+                "Payments were handled by the Stripe API, with the hosted website using Stripe in test mode."
+            ]},
+            "githubLink": "https://github.com/edthuman/events-platform",
+            "hosted": true,
+            "hostedLink": "https://events-platform-i74z.onrender.com"
+        },
         {
             "name": "Portfolio Website",
             "briefDescription": "A portfolio website detailing the projects I've made",
