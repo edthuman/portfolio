@@ -36,11 +36,14 @@ This command will automatically install all of the dependencies required to run 
 
 You can begin working on the project.
 
-To check everything was set up correctly, it is useful to run the site using:
+To check everything was set up correctly, you can run the site using:
 
 ```console
 $ npm run dev
 ```
+
+> [!TIP]
+> If you are using VSCode or Cursor you can use the compound configuration "Open App" created in the launch.json file of .vscode folder - it runs the previous command for you, and opens your site in a Chrome Debugger tab
 
 Once this has finished loading, you should see two links in your terminal "Local" and "Network".
 
