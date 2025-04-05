@@ -6,7 +6,9 @@
                 "SQL",
                 "PSQL",
                 "Firebase Authentication",
-                "Firebase Realtime Database"
+                "Firebase Realtime Database",
+                "MongoDB",
+                "NestJS"
             ]
         },
         {
@@ -15,20 +17,23 @@
                 "HTML",
                 "CSS",
                 "React",
-                "React Native"
+                "React Native",
+                "Redux"
             ]
         },
         {
             "type": "Hosting",
             "items": [
                 "Netlify",
-                "Render"
+                "Render",
+                "AWS"
             ]
         },
         {
             "type": "Languages",
             "items": [
-                "JavaScript (and JSX)"
+                "JavaScript",
+                "TypeScript"
             ]
         },
         {
@@ -36,7 +41,6 @@
             "items": [
                 "Jest",
                 "SuperTest",
-                "Vite",
                 "Expo"
             ]
         }    
