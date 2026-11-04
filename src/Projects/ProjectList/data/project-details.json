@@ -76,8 +76,7 @@
                 ]
             },
             "githubLink": "https://github.com/tchan70/EcoQuest",
-            "hosted": true,
-            "hostedLink": "https://northcoders.com/project-phase/ecoquest"
+            "hosted": false
         },
         {
             "name": "NC News Website",
