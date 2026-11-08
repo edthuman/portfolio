@@ -1,11 +1,17 @@
 #technologies {
-	position: relative;
-	background-color: rgb(131, 205, 136);
+    position: relative;
+    background-color: rgb(131, 205, 136);
+    scroll-snap-type: x mandatory;  
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-stop: always;
 }
 
 #technologies-heading {
-	font-size: 8vh;
-	margin-top: 0.4em;
+    font-size: 8vh;
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
 }
 
 #technologies-subheading {

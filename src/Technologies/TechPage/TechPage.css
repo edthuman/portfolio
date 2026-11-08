@@ -1,0 +1,29 @@
+.tech-sub-page {
+    height: 100vh;
+    min-width: 100vw;
+    scroll-snap-align: end;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-title {
+    font-size: 8vh;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.tech-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-bottom: 20px;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 0 5vh;
+}
