@@ -8,12 +8,12 @@ import MusicPage from "./MusicPage"
 
 function Hobbies() {
     return <section className="page" id="hobbies-section" tabIndex={0}>
-    <HobbiesTitlePage/>
-    <LondonClassicsPage/>
-    <MusicPage/>
-    <BooksPage/>
-    <FilmsPage/>
-    <MiscellaneousPage/>
+        <HobbiesTitlePage/>
+        <LondonClassicsPage/>
+        <MusicPage/>
+        <BooksPage/>
+        <FilmsPage/>
+        <MiscellaneousPage/>
     </section>
 }
 
