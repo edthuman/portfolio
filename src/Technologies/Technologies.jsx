@@ -1,21 +1,21 @@
 import {
   _React,
   AwsCloudwatch,
+  AwsEventbridge,
   AwsLambda,
   AwsS3,
   AwsSecretsManager,
   AwsSns,
   AwsSqs,
   ClaudeCode,
-  Codex,
   CodexIcon,
   Css,
-  Cursor,
   CursorIcon,
   Datagrip,
+  DockerIcon,
+  Express,
   FirebaseIcon,
   Git,
-  Github,
   GithubIcon,
   Html5,
   Javascript,
@@ -23,8 +23,13 @@ import {
   Lighthouse,
   MongodbIcon,
   Nestjs,
+  NodejsIcon,
+  Oauth,
   Postgresql,
+  PostmanIcon,
   Redux,
+  Sass,
+  SentryIcon,
   TailwindIcon,
   TypescriptIcon,
   VisualStudioCode,
@@ -34,6 +39,7 @@ import "./Technologies.css";
 import TechIcon from "./TechPage/TechIcon/TechIcon";
 import TechPage from "./TechPage/TechPage";
 import TechTitlePage from "./TechTitlePage/TechTitlePage";
+import TypeOrmIcon from "./TypeORM/TypeORM";
 
 function Technologies() {
   return (
@@ -55,16 +61,21 @@ function Technologies() {
         <TechIcon name="GitHub" icon={GithubIcon} />
         <TechIcon name="VS Code" icon={VisualStudioCode} />
         <TechIcon name="XCode" icon={Xcode} />
+        <TechIcon name="Docker" icon={DockerIcon} />
+        <TechIcon name="Postman" icon={PostmanIcon} />
+        <TechIcon name="Sentry" icon={SentryIcon} />
       </TechPage>
 
       <TechPage name="Backend">
+        <TechIcon name="Express" icon={Express} />
         <TechIcon name="Firebase Authentication" icon={FirebaseIcon} />
         <TechIcon name="Firebase Realtime Database" icon={FirebaseIcon} />
         <TechIcon name="MongoDB" icon={MongodbIcon} />
         <TechIcon name="NestJS" icon={Nestjs} />
+        <TechIcon name="NodeJS" icon={NodejsIcon} />
+        <TechIcon name="OAuth" icon={Oauth} />
         <TechIcon name="PostgreSQL" icon={Postgresql} />
-        <TechIcon name="TypeORM" />
-        {/* Maybe mention OAuth here? */}
+        <TechIcon name="TypeORM" icon={TypeOrmIcon} />
       </TechPage>
 
       <TechPage name="Frontend">
@@ -73,11 +84,13 @@ function Technologies() {
         <TechIcon name="React" icon={_React} />
         <TechIcon name="React Native" icon={_React} />
         <TechIcon name="Redux" icon={Redux} />
+        <TechIcon name="SASS" icon={Sass} />
         <TechIcon name="Tailwind" icon={TailwindIcon} />
       </TechPage>
 
       <TechPage name="Cloud">
         <TechIcon name="Cloudwatch" icon={AwsCloudwatch} />
+        <TechIcon name="EventBridge" icon={AwsEventbridge} />
         <TechIcon name="Lambda" icon={AwsLambda} />
         <TechIcon name="S3" icon={AwsS3} />
         <TechIcon name="Secrets Manager" icon={AwsSecretsManager} />
@@ -86,11 +99,9 @@ function Technologies() {
       </TechPage>
 
       <TechPage name="Testing">
-        {/* Is Expo worth mentioning? Is it even testing? */}
         <TechIcon name="Jest" icon={Jest} />
         <TechIcon name="Lighthouse" icon={Lighthouse} />
-        {/* Is supertest worth mentioning? */}
-        <TechIcon name="Test-Driven Development" />
+        <TechIcon name="Supertest" />
       </TechPage>
     </section>
   );
