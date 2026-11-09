@@ -1,18 +1,19 @@
 import "./TechIcon.css";
+import TechName from "./TechName/TechName";
 
 function TechIcon({ icon: Icon, name }) {
   if (!Icon) {
     return (
       <div className="tech-icon-area">
-        <p className="tech-name-no-icon">{name}</p>
+        <TechName name={name} className="tech-name-no-icon" />
       </div>
     );
   }
 
   return (
     <div className="tech-icon-area">
-      {Icon && <Icon className="tech-icon" />}
-      <p className="tech-name">{name}</p>
+      <Icon className="tech-icon" />
+      <TechName name={name} className="tech-name" />
     </div>
   );
 }
