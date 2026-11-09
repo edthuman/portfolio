@@ -33,6 +33,10 @@
 	padding: 3cqi;
 }
 
+.hobbies-sub-page.title-page {
+    display: grid;
+}
+
 .hobby-heading {
 	box-sizing: border-box;
 	width: 100%;
@@ -62,4 +66,62 @@
 	font-size: min(4cqb, 3.4cqi);
 	font-weight: 550;
 	line-height: 1.45;
+}
+
+@media screen and (max-width: 420px){
+    .hobby-heading {
+        margin-bottom: 0em;
+    }
+}
+
+@media screen and (min-height: 450px) {
+    .hobby-heading {
+        font-size: 9vh;
+    }
+
+    .music-page-text, .books-page-text, .miscellaneous-page-text {
+        font-size: 3.2vh;
+    }
+
+    .london-classics-text {
+        font-size: 2.6vh;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hobby-heading {
+        font-size: 11vh;
+    }
+
+    .music-page-text, .books-page-text, .miscellaneous-page-text {
+        font-size: 4vh;
+    }
+
+    .london-classics-text {
+        font-size: 3.3vh;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .hobby-heading {
+        font-size: 12vh;
+    }
+
+    .music-page-text, .books-page-text, .miscellaneous-page-text {
+        font-size: 4.5vh;
+    }
+
+    .london-classics-text {
+        font-size: 3.6vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hobby-heading {
+        font-size: 13vh;
+    }
+
+    .music-page-text, .books-page-text, .miscellaneous-page-text {
+        font-size: 5vh;
+    }
 }
