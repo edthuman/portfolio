@@ -101,7 +101,7 @@ function Technologies() {
       <TechPage name="Testing">
         <TechIcon name="Jest" icon={Jest} />
         <TechIcon name="Lighthouse" icon={Lighthouse} />
-        <TechIcon name="Supertest" />
+        <TechIcon name="Supertest" abbreviation="ST" />
       </TechPage>
     </section>
   );

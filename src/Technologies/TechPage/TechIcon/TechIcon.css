@@ -8,17 +8,33 @@
     box-sizing: border-box;
 }
 
-.tech-name-no-icon {
+.tech-fallback-icon {
     display: flex;
-    flex-wrap: wrap;
+    flex: 0 0 auto;
+    align-items: center;
     justify-content: center;
-    column-gap: 0.25em;
-    align-self: stretch;
+    box-sizing: border-box;
+    width: var(--tech-icon-size);
+    height: var(--tech-icon-size);
+    max-width: 100%;
+    padding: 0.12em;
+    border-radius: 18%;
+    background: #111;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.tech-fallback-icon svg {
+    display: block;
     width: 100%;
-    margin: 0;
-    font-size: var(--tech-label-size);
-    line-height: 1.15;
-    overflow-wrap: normal;
+    height: 100%;
+    overflow: visible;
+    fill: currentColor;
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .tech-name {
@@ -34,8 +50,7 @@
     overflow-wrap: normal;
 }
 
-.tech-name span,
-.tech-name-no-icon span {
+.tech-name span {
     flex: 0 0 auto;
     white-space: nowrap;
 }
