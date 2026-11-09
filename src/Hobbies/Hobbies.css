@@ -17,6 +17,10 @@
 	flex-wrap: wrap;
 }
 
+.hobbies-sub-page.title-page {
+	display: grid;
+}
+
 .hobby-heading {
 	font-size: 13vh;
 	margin-bottom: 0.7em;
