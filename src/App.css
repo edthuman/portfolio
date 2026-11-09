@@ -59,6 +59,17 @@ h2 {
   line-height: 1.35;
 }
 
+#hobby-title-page-heading,
+#technologies-heading {
+	font-size: min(12cqi, 12cqb);
+}
+
+#hobby-title-page-subheading,
+#technologies-subheading {
+	max-width: 100cqi;
+	font-size: min(4cqi, 3cqb);
+}
+
 @media (max-width: 720px) {
   .title-page-heading {
     font-size: min(12cqi, 8cqb, 7rem);

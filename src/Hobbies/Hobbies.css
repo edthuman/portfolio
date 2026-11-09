@@ -19,37 +19,37 @@
 }
 
 .hobbies-sub-page:not(.title-page) {
-    box-sizing: border-box;
-    container-type: size;
-    display: flex;
-    flex: 0 0 100%;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: safe center;
-    gap: min(5cqb, 3rem);
-    min-width: 100vw;
-    min-height: 0;
-    overflow-y: auto;
-    padding: min(3cqi, 4rem);
+	box-sizing: border-box;
+	container-type: size;
+	display: flex;
+	flex: 0 0 100%;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: safe center;
+	gap: 5cqb;
+	min-width: 100vw;
+	min-height: 0;
+	overflow-y: auto;
+	padding: 3cqi;
 }
 
 .hobby-heading {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    flex: 0 0 auto;
-    margin: 0;
-    font-size: min(9cqi, 8cqb, 5.5rem);
-    line-height: 1.05;
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	flex: 0 0 auto;
+	margin: 0;
+	font-size: min(9cqi, 8cqb);
+	line-height: 1.05;
 }
 
 .hobbies-sub-page:not(.title-page) [id$="-text-area"] {
-    display: flex;
-    flex-direction: column;
-    gap: min(2cqb, 0.9rem);
-    width: 100%;
-    max-width: 58rem;
-    margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 2cqb;
+	width: 100%;
+	max-width: 90cqi;
+	margin-inline: auto;
 }
 
 .music-page-text,
@@ -57,9 +57,9 @@
 .film-page-text,
 .miscellaneous-page-text,
 .london-classics-text {
-    margin: 0;
-    padding: 0;
-    font-size: min(calc(0.8rem + 0.9vw), 3.4cqb, 3.4cqi, 1.6rem);
-    font-weight: 550;
-    line-height: 1.45;
+	margin: 0;
+	padding: 0;
+	font-size: min(4cqb, 3.4cqi);
+	font-weight: 550;
+	line-height: 1.45;
 }
