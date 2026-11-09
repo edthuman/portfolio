@@ -21,7 +21,6 @@ function Home() {
 					className="social-link"
 					href="https://www.linkedin.com/in/edwardirvine"
 					target="blank"
-					id="linkedin-link"
 				>
 					<img
 						src={linkedInLogo}
