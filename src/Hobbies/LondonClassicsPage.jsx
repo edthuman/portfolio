@@ -1,5 +1,3 @@
-import "./LondonClassicsPage.css";
-
 function LondonClassics() {
 	return (
 		<section

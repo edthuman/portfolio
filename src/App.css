@@ -44,7 +44,7 @@ h2 {
   height: auto;
   margin: 0;
   padding: 0 0.5cqi;
-  font-size: clamp(2.75rem, min(9cqi, 12cqb), 7rem);
+  font-size: min(9cqi, 12cqb, 7rem);
   line-height: 1.05;
 }
 
@@ -54,14 +54,14 @@ h2 {
   max-width: 42rem;
   margin: 2.5cqb 0 0;
   padding: 0 2cqi;
-  font-size: clamp(1rem, min(4cqi, 3cqb), 1.75rem);
+  font-size: min(4cqi, 3cqb, 1.75rem);
   font-weight: 550;
   line-height: 1.35;
 }
 
 @media (max-width: 720px) {
   .title-page-heading {
-    font-size: clamp(2.75rem, min(12cqi, 8cqb), 7rem);
+    font-size: min(12cqi, 8cqb, 7rem);
   }
 }
 

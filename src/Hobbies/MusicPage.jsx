@@ -1,5 +1,3 @@
-import "./MusicPage.css";
-
 function MusicPage() {
 	return (
 		<section className="hobbies-sub-page" id="music-page" tabIndex={0}>
