@@ -14,10 +14,11 @@
     align-items: stretch;
 }
 
-.tech-title-page {
+#technologies .tech-title-page {
     align-content: center;
     grid-template-rows: auto auto;
     justify-items: center;
+    padding: 0;
     text-align: center;
 }
 
@@ -26,16 +27,23 @@
     height: auto;
     margin: 0;
     padding: 0 0.5cqi;
-    font-size: min(9cqi, 12cqb);
+    font-size: clamp(2.75rem, min(9cqi, 12cqb), 7rem);
     line-height: 1.05;
 }
 
 #technologies-subheading {
     box-sizing: border-box;
     height: auto;
+    max-width: 42rem;
     margin: 2.5cqb 0 0;
     padding: 0 2cqi;
-    font-size: min(4cqi, 3cqb);
+    font-size: clamp(1rem, min(4cqi, 3cqb), 1.75rem);
     font-weight: 550;
     line-height: 1.35;
+}
+
+@media (max-width: 720px) {
+    #technologies-heading {
+        font-size: clamp(2.75rem, min(12cqi, 8cqb), 7rem);
+    }
 }
