@@ -18,7 +18,7 @@
 	padding: 1.25em 1.5em;
 	font-size: calc(1rem / var(--page-zoom, 1));
 	color: rgb(232, 232, 236);
-	background-color: rgb(43, 39, 53);
+	background-color: rgb(54, 48, 71);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 1em;
 	box-shadow: 0 1.5em 4em rgba(0, 0, 0, 0.5);
