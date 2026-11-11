@@ -1,6 +1,6 @@
 import "./ProjectCard.css";
 import React from "react";
-import ProjectModal from "./ProjectModal/ProjectModal";
+import ProjectModal from "../ProjectModal/ProjectModal";
 
 function ProjectCard({ project }) {
 	const [modalIsOpen, setModalIsOpen] = React.useState(false);

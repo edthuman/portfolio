@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./ProjectCard/ProjectCard";
 import * as data from "./data/project-details.json";
 import "./ProjectList.css";
 
