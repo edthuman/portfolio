@@ -16,15 +16,22 @@ function ProjectCard({ project }) {
 	return (
 		<>
 			<button className="project-card" onClick={openModal}>
-				<h3 className="project-card-title">{project.name}</h3>
-				<img
-					src={`${project.img}.png`}
-					alt={project.altText}
-					className="project-image-preview"
-				/>
-				<p className="project-description">
-					{project.briefDescription}
-				</p>
+				<div className="project-image-frame">
+					<img
+						src={`${project.img}.png`}
+						alt={project.altText}
+						className="project-image-preview"
+					/>
+				</div>
+				<div className="project-card-body">
+					<h3 className="project-card-title">{project.name}</h3>
+					<p className="project-description">
+						{project.briefDescription}
+					</p>
+					<span className="project-card-cta" aria-hidden="true">
+						View details <span className="project-card-arrow">→</span>
+					</span>
+				</div>
 			</button>
 			<ProjectModal
 				project={project}
