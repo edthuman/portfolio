@@ -1,11 +1,28 @@
 import "./ProjectModal.css";
+import { useEffect } from "react";
 import Modal from "react-modal";
 import { CloseIcon, ExternalLinkIcon, GitHubIcon } from "./ModalIcons";
 import TechChip from "./TechChip/TechChip";
 
 Modal.setAppElement("#root");
 
+function updateZoom() {
+	const ratio = window.outerWidth / window.innerWidth;
+	const zoom = ratio > 0.2 && ratio < 6 ? ratio : 1;
+	document.documentElement.style.setProperty("--page-zoom", zoom);
+}
+
 function ProjectModal({ project, isOpen, onClose }) {
+	useEffect(() => {
+		if (!isOpen || window.matchMedia("(pointer: coarse)").matches) return;
+		updateZoom();
+		window.addEventListener("resize", updateZoom);
+		return () => {
+			window.removeEventListener("resize", updateZoom);
+			document.documentElement.style.removeProperty("--page-zoom");
+		};
+	}, [isOpen]);
+
 	return (
 		<Modal
 			isOpen={isOpen}
