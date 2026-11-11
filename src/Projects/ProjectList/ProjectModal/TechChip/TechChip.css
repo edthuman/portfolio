@@ -1,0 +1,28 @@
+.tech-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.35rem 0.75rem 0.35rem 0.55rem;
+	font-size: 0.85rem;
+	font-weight: 500;
+	line-height: 1;
+	white-space: nowrap;
+	color: rgb(232, 232, 236);
+	background-color: rgba(255, 255, 255, 0.06);
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 999px;
+}
+
+.tech-chip:not(:has(.tech-chip-icon)) {
+	padding-left: 0.75rem;
+}
+
+.tech-chip-icon {
+	flex: 0 0 auto;
+	width: 1.1rem;
+	height: 1.1rem;
+}
+
+.tech-chip-icon-dark {
+	filter: brightness(0) invert(1);
+}

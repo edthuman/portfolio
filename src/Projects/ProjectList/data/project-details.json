@@ -5,7 +5,7 @@
 			"briefDescription": "A portfolio website detailing the projects I've made",
 			"img": "portfolio",
 			"altText": "The portfolio website's home page",
-			"tech-used": ["React", "Vite", "JavaScript", "JSX", "HTML", "CSS"],
+			"tech-used": ["React", "Vite", "JavaScript", "HTML", "CSS"],
 			"fullDescription": {
 				"paragraphs": [
 					"The website you're currently on!",
@@ -29,7 +29,6 @@
 				"React",
 				"Vite",
 				"TypeScript",
-				"JSX",
 				"HTML",
 				"Tailwind"
 			],
@@ -82,7 +81,7 @@
 			"briefDescription": "A website of articles and comments with associated users",
 			"img": "nc-news-site",
 			"altText": "NC News' home page",
-			"tech-used": ["React", "Vite", "JavaScript", "JSX", "HTML", "CSS"],
+			"tech-used": ["React", "Vite", "JavaScript", "HTML", "CSS"],
 			"fullDescription": {
 				"paragraphs": [
 					"The NC News website is a front-end interface for the NC News API.",
