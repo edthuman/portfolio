@@ -1,6 +1,31 @@
 {
     "projects": [
         {
+            "name": "Portfolio Website",
+            "briefDescription": "A portfolio website detailing the projects I've made",
+            "img": "portfolio",
+            "altText": "The portfolio website's home page",
+            "tech-used": [
+                "React",
+                "Vite",
+                "JavaScript",
+                "JSX",
+                "HTML",
+                "CSS"
+            ],
+            "fullDescription": {"paragraphs": [
+                "The website you're currently on!",
+                "A fullscreen scrolling website that provides an introduction to myself.", 
+                "After an brief introductory page, it provides a brief overview of who I am and how I got started in tech.",
+                "Then the projects page shows previews for all of the projects I've completed. Further information on each project is displayed when a user clicks on its preview.",
+                "There is then a page covering the technologies and frameworks I have experience using, followed by a hobbies section, and then the final page gives methods of getting in contact with me.",
+                "The website was built using Vite with React, written in JavaScript and JSX, with CSS styling.",
+                "The modal windows on the projects page were created using a component from the react-modal API."
+            ]},
+            "githubLink": "https://github.com/edthuman/portfolio",
+            "hosted": false
+        },
+        {
             "name": "Events Website",
             "briefDescription": "A website for a community cinema",
             "img": "events",
@@ -25,31 +50,6 @@
             "githubLink": "https://github.com/edthuman/events-platform",
             "hosted": true,
             "hostedLink": "https://events-platform-i74z.onrender.com"
-        },
-        {
-            "name": "Portfolio Website",
-            "briefDescription": "A portfolio website detailing the projects I've made",
-            "img": "portfolio",
-            "altText": "The portfolio website's home page",
-            "tech-used": [
-                "React",
-                "Vite",
-                "JavaScript",
-                "JSX",
-                "HTML",
-                "CSS"
-            ],
-            "fullDescription": {"paragraphs": [
-                "The website you're currently on!",
-                "A fullscreen scrolling website that provides an introduction to myself.", 
-                "After an brief introductory page, it provides a brief overview of who I am and how I got started in tech.",
-                "Then the projects page shows previews for all of the projects I've completed. Further information on each project is displayed when a user clicks on its preview.",
-                "There is then a page covering the technologies and frameworks I have experience using, followed by a hobbies section, and then the final page gives methods of getting in contact with me.",
-                "The website was built using Vite with React, written in JavaScript and JSX, with CSS styling.",
-                "The modal windows on the projects page were created using a component from the react-modal API."
-            ]},
-            "githubLink": "https://github.com/edthuman/portfolio",
-            "hosted": false
         },
         {
             "name": "EcoQuest",
