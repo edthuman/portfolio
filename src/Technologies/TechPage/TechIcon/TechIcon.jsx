@@ -26,12 +26,12 @@ function TechIcon({ icon: Icon, name, abbreviation }) {
     );
   }
 
-  return (
-    <div className="tech-icon-area">
-      <Icon className="tech-icon" />
-      <TechName name={name} className="tech-name" />
-    </div>
-  );
+	return (
+		<div className="tech-icon-area">
+			<Icon className="tech-icon" aria-hidden="true" focusable="false" />
+			<TechName name={name} className="tech-name" />
+		</div>
+	);
 }
 
 export default TechIcon;

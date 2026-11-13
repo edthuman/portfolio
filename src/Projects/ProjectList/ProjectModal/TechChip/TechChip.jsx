@@ -11,6 +11,7 @@ function TechChip({ name }) {
 				<Icon
 					className={`tech-chip-icon${darkTechIcons.has(name) ? " tech-chip-icon-dark" : ""}`}
 					aria-hidden="true"
+					focusable="false"
 				/>
 			)}
 		</li>
