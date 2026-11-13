@@ -81,8 +81,14 @@ function App() {
 		};
 	}, []);
 
+	useEffect(() => {
+		// Arrow keys should be able to scroll up/down the pages
+		// In order for these keys to work, main must be focused
+		document.querySelector("main")?.focus({ preventScroll: true });
+	}, []);
+
 	return (
-		<main>
+		<main tabIndex={-1}>
 			<Home />
 			<About />
 			<Projects />
