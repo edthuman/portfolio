@@ -1,0 +1,43 @@
+.tech-sub-page {
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 0;
+    container-type: size;
+    padding: 8cqb 2cqi 2cqb;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.tech-title {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1.5cqb;
+    padding: 0 3cqi;
+    font-size: min(12cqi, 8cqb);
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.tech-list {
+    --tech-icon-size: min(28cqi, max(9cqb, 5cqi));
+    --tech-label-size: min(5cqi, 2.8cqb);
+
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    font-size: var(--tech-label-size);
+    align-content: safe center;
+    align-items: center;
+    justify-content: center;
+    width: min(100%, max(200cqb, 90cqi));
+    min-height: 0;
+    margin: 0 auto;
+    padding: 0 4cqi;
+    column-gap: 4cqi;
+    row-gap: 4cqb;
+}

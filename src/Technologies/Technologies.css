@@ -1,54 +1,49 @@
 #technologies {
-	position: relative;
-	background-color: rgb(131, 205, 136);
+    position: relative;
+    background-color: rgb(131, 205, 136);
+    scroll-snap-type: x mandatory;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#technologies .tech-sub-page {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    align-items: stretch;
+}
+
+#technologies .tech-title-page {
+    align-content: center;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    padding: 0;
+    text-align: center;
 }
 
 #technologies-heading {
-	font-size: 8vh;
-	margin-top: 0.4em;
+    box-sizing: border-box;
+    height: auto;
+    margin: 0;
+    padding: 0 0.5cqi;
+    font-size: clamp(2.75rem, min(9cqi, 12cqb), 7rem);
+    line-height: 1.05;
 }
 
 #technologies-subheading {
-	font-size: 3vh;
-	font-weight: 550;
-	padding: 0 1em;
-	height: 4%;
+    box-sizing: border-box;
+    height: auto;
+    max-width: 42rem;
+    margin: 2.5cqb 0 0;
+    padding: 0 2cqi;
+    font-size: clamp(1rem, min(4cqi, 3cqb), 1.75rem);
+    font-weight: 550;
+    line-height: 1.35;
 }
 
-@media screen and (min-width: 600px) {
-	#technologies-heading {
-		font-size: 9vh;
-		height: 11%;
-	}
-}
-
-@media screen and (max-width: 760px) and (min-height: 800px) {
-	#technologies-heading {
-		margin-top: 0.6em;
-		margin-bottom: 0.1em;
-		font-size: 7vh;
-		height: 7%;
-	}
-	#technologies-subheading {
-		font-size: 3vh;
-		margin-bottom: 2%;
-	}
-}
-
-@media screen and (max-width: 580px) and (min-height: 800px) {
-	#technologies-heading {
-		font-size: 10vw;
-		height: 7%;
-		margin-bottom: 0;
-	}
-	#technologies-subheading {
-		font-size: 5vw;
-		margin-bottom: 0;
-	}
-}
-
-@media screen and (min-width: 1100px) and (max-height: 500px) {
-	#technologies-subheading {
-		margin-bottom: 0%;
-	}
+@media (max-width: 720px) {
+    #technologies-heading {
+        font-size: clamp(2.75rem, min(12cqi, 8cqb), 7rem);
+    }
 }
