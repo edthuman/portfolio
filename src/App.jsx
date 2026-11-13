@@ -12,7 +12,8 @@ function App() {
 		const handleKeyDown = (e) => {
 			if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
 			const tag = e.target.tagName;
-			if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+			if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT")
+				return;
 
 			const horizontalSections = ["technologies", "hobbies-section"]
 				.map((id) => document.getElementById(id))

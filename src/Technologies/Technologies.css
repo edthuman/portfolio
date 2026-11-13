@@ -1,20 +1,20 @@
 #technologies {
-    position: relative;
-    background-color: rgb(131, 205, 136);
-    scroll-snap-type: x mandatory;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
+	position: relative;
+	background-color: rgb(131, 205, 136);
+	scroll-snap-type: x mandatory;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
 }
 
 #technologies .tech-sub-page {
-    display: grid;
-    grid-template-rows: auto minmax(0, 1fr);
-    align-items: stretch;
+	display: grid;
+	grid-template-rows: auto minmax(0, 1fr);
+	align-items: stretch;
 }
 
 #technologies .tech-sub-page.title-page {
-    align-content: center;
-    grid-template-rows: auto auto;
+	align-content: center;
+	grid-template-rows: auto auto;
 }

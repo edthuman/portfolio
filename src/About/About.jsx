@@ -7,10 +7,13 @@ function About() {
 				<h2 id="about-heading">About Me</h2>
 				<section id="about-body">
 					<p className="about-text">
-						After graduating from a Psychology degree, I ended up working as a customer service advisor both NHS 119 (Coronavirus adviceline), and HM Passport Office.
+						After graduating from a Psychology degree, I ended up
+						working as a customer service advisor both NHS 119
+						(Coronavirus adviceline), and HM Passport Office.
 					</p>
 					<p className="about-text">
-						After seeing government adverts about cybersecurity jobs, I took the {" "}
+						After seeing government adverts about cybersecurity
+						jobs, I took the{" "}
 						<a
 							className="page-link"
 							href="https://www.coursera.org/professional-certificates/google-cybersecurity"
@@ -18,10 +21,12 @@ function About() {
 						>
 							Google Cybersecurity Professional Certificate
 						</a>{" "}
-						course. It included some Python and SQL coding, which I enjoyed so much, I decided to look at ways to get into software engineering.
+						course. It included some Python and SQL coding, which I
+						enjoyed so much, I decided to look at ways to get into
+						software engineering.
 					</p>
 					<p className="about-text">
-						In late 2023, I used a {" "}
+						In late 2023, I used a{" "}
 						<a
 							className="page-link"
 							href="https://www.w3schools.com"
@@ -68,7 +73,10 @@ function About() {
 						>
 							Edify Systems
 						</a>
-						. There I worked on a web app for quick service restaurants to manage their back of house operations - including placing orders, counting stock, planning food production, and analysing business performance.
+						. There I worked on a web app for quick service
+						restaurants to manage their back of house operations -
+						including placing orders, counting stock, planning food
+						production, and analysing business performance.
 					</p>
 				</section>
 			</div>

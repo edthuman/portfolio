@@ -25,13 +25,7 @@
 			"briefDescription": "A website for a community cinema",
 			"img": "events",
 			"altText": "The community cinema website's home page",
-			"tech-used": [
-				"React",
-				"Vite",
-				"TypeScript",
-				"HTML",
-				"Tailwind"
-			],
+			"tech-used": ["React", "Vite", "TypeScript", "HTML", "Tailwind"],
 			"fullDescription": {
 				"paragraphs": [
 					"A website that displays upcoming events for a community cinema.",

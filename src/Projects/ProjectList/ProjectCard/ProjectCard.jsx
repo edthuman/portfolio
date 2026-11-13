@@ -29,7 +29,8 @@ function ProjectCard({ project }) {
 						{project.briefDescription}
 					</p>
 					<span className="project-card-cta" aria-hidden="true">
-						View details <span className="project-card-arrow">→</span>
+						View details{" "}
+						<span className="project-card-arrow">→</span>
 					</span>
 				</div>
 			</button>
