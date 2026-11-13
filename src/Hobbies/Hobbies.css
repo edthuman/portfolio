@@ -1,93 +1,103 @@
 #hobbies-section {
-    background-color: rgb(196, 135, 194);
-    position: relative;
-    scroll-snap-type: x mandatory;  
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    scroll-snap-stop: always;
+	background-color: rgb(196, 135, 194);
+	position: relative;
+	scroll-snap-type: x mandatory;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	scroll-snap-stop: always;
 }
 
 .hobbies-sub-page {
-    height: 100vh;
-    min-width: 100vw;
-    scroll-snap-align: end;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
+	height: 100vh;
+	min-width: 100vw;
+	scroll-snap-align: end;
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .hobby-heading {
-    font-size: 13vh;
-    margin-bottom: 0.7em;
+	font-size: 13vh;
+	margin-bottom: 0.7em;
 }
 
-.music-page-text, .books-page-text, .miscellaneous-page-text {
-    padding: 0 1em;
-    font-size: 3.7vh;
-    font-weight: 550;
+.music-page-text,
+.books-page-text,
+.miscellaneous-page-text {
+	padding: 0 1em;
+	font-size: 3.7vh;
+	font-weight: 550;
 }
 
 .london-classics-text {
-    padding: 0 1em;
-    font-size: 3vh;
-    font-weight: 550;
+	padding: 0 1em;
+	font-size: 3vh;
+	font-weight: 550;
 }
 
-@media screen and (max-width: 420px){
-    .hobby-heading {
-        margin-bottom: 0em;
-    }
+@media screen and (max-width: 420px) {
+	.hobby-heading {
+		margin-bottom: 0em;
+	}
 }
 
 @media screen and (min-height: 450px) {
-    .hobby-heading {
-        font-size: 9vh;
-    }
+	.hobby-heading {
+		font-size: 9vh;
+	}
 
-    .music-page-text, .books-page-text, .miscellaneous-page-text {
-        font-size: 3.2vh;
-    }
+	.music-page-text,
+	.books-page-text,
+	.miscellaneous-page-text {
+		font-size: 3.2vh;
+	}
 
-    .london-classics-text {
-        font-size: 2.6vh;
-    }
+	.london-classics-text {
+		font-size: 2.6vh;
+	}
 }
 
-@media screen and (min-width: 700px){
-    .hobby-heading {
-        font-size: 11vh;
-    }
+@media screen and (min-width: 700px) {
+	.hobby-heading {
+		font-size: 11vh;
+	}
 
-    .music-page-text, .books-page-text, .miscellaneous-page-text {
-        font-size: 4vh;
-    }
+	.music-page-text,
+	.books-page-text,
+	.miscellaneous-page-text {
+		font-size: 4vh;
+	}
 
-    .london-classics-text {
-        font-size: 3.3vh;
-    }
+	.london-classics-text {
+		font-size: 3.3vh;
+	}
 }
 
-@media screen and (min-width: 1000px){
-    .hobby-heading {
-        font-size: 12vh;
-    }
+@media screen and (min-width: 1000px) {
+	.hobby-heading {
+		font-size: 12vh;
+	}
 
-    .music-page-text, .books-page-text, .miscellaneous-page-text {
-        font-size: 4.5vh;
-    }
+	.music-page-text,
+	.books-page-text,
+	.miscellaneous-page-text {
+		font-size: 4.5vh;
+	}
 
-    .london-classics-text {
-        font-size: 3.6vh;
-    }
+	.london-classics-text {
+		font-size: 3.6vh;
+	}
 }
 
-@media screen and (min-width: 1200px){
-    .hobby-heading {
-        font-size: 13vh;
-    }
+@media screen and (min-width: 1200px) {
+	.hobby-heading {
+		font-size: 13vh;
+	}
 
-    .music-page-text, .books-page-text, .miscellaneous-page-text {
-        font-size: 5vh;
-    }
+	.music-page-text,
+	.books-page-text,
+	.miscellaneous-page-text {
+		font-size: 5vh;
+	}
 }

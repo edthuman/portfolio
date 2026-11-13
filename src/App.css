@@ -1,47 +1,47 @@
 #root {
-  text-align: center;
-  color: white;
-  background-color: rgb(32, 32, 32);
+	text-align: center;
+	color: white;
+	background-color: rgb(32, 32, 32);
 }
 
 main {
-  overflow: scroll;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-type: y mandatory;
-  scroll-snap-stop: always;
+	overflow: scroll;
+	height: 100vh;
+	width: 100vw;
+	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
 }
 
 .page {
-  display: flex;
-  flex-wrap: wrap;
-  scroll-snap-align: start;
-  height: 100%; 
-  width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	scroll-snap-align: start;
+	height: 100%;
+	width: 100%;
 }
 
 h2 {
-  width: 100%;
-  height: 10%;
-  font-size: 9vh;
-  margin: 0;
-  font-weight: 750;
+	width: 100%;
+	height: 10%;
+	font-size: 9vh;
+	margin: 0;
+	font-weight: 750;
 }
 
 .subheading {
-  font-weight: 500;
-  font-size: 3.7vh;
-  width: 100%;
-  height: 5%;
-  text-align: center;
-  margin: 0;
+	font-weight: 500;
+	font-size: 3.7vh;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	margin: 0;
 }
 
 .page-link {
-  color: white;
+	color: white;
 }
 
 .page-link:hover {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }

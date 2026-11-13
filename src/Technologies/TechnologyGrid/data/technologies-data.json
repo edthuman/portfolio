@@ -1,48 +1,31 @@
-{   
-    "technologies": [
-        {
-            "type": "Back-End",
-            "items": [
-                "SQL",
-                "PSQL",
-                "Firebase Authentication",
-                "Firebase Realtime Database",
-                "MongoDB",
-                "NestJS"
-            ]
-        },
-        {
-            "type": "Front-End",
-            "items": [
-                "HTML",
-                "CSS",
-                "React",
-                "React Native",
-                "Redux"
-            ]
-        },
-        {
-            "type": "Hosting",
-            "items": [
-                "Netlify",
-                "Render",
-                "AWS"
-            ]
-        },
-        {
-            "type": "Languages",
-            "items": [
-                "JavaScript",
-                "TypeScript"
-            ]
-        },
-        {
-            "type": "Testing",
-            "items": [
-                "Jest",
-                "SuperTest",
-                "Expo"
-            ]
-        }    
-    ]
+{
+	"technologies": [
+		{
+			"type": "Back-End",
+			"items": [
+				"SQL",
+				"PSQL",
+				"Firebase Authentication",
+				"Firebase Realtime Database",
+				"MongoDB",
+				"NestJS"
+			]
+		},
+		{
+			"type": "Front-End",
+			"items": ["HTML", "CSS", "React", "React Native", "Redux"]
+		},
+		{
+			"type": "Hosting",
+			"items": ["Netlify", "Render", "AWS"]
+		},
+		{
+			"type": "Languages",
+			"items": ["JavaScript", "TypeScript"]
+		},
+		{
+			"type": "Testing",
+			"items": ["Jest", "SuperTest", "Expo"]
+		}
+	]
 }

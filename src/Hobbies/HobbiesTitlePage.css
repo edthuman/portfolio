@@ -1,41 +1,41 @@
 #hobbies-title-page {
-    align-content: center;
+	align-content: center;
 }
 
 #hobby-title-page-heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17vh;
-    height: 30%;
-    margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17vh;
+	height: 30%;
+	margin: 0;
 }
 
 #hobby-title-page-subheading {
-    width: 100%;
-    padding: 0 1.3em;
-    font-size: 6vh;
-    font-weight: 550;
-    height: 20%;
+	width: 100%;
+	padding: 0 1.3em;
+	font-size: 6vh;
+	font-weight: 550;
+	height: 20%;
 }
 
 @media screen and (min-height: 450px) {
-    #hobby-title-page-heading {
-        font-size: 13vh;
-    }
-    
-    #hobby-title-page-subheading {
-        font-size: 4vh;
-    }
+	#hobby-title-page-heading {
+		font-size: 13vh;
+	}
+
+	#hobby-title-page-subheading {
+		font-size: 4vh;
+	}
 }
 
-@media screen and (max-width: 480px){
-    #hobby-title-page-heading {
-        font-size: 20vw;
-    }
+@media screen and (max-width: 480px) {
+	#hobby-title-page-heading {
+		font-size: 20vw;
+	}
 
-    #hobby-title-page-subheading {
-       height: 20%;
-       font-size: 2.5vh;
-    }
+	#hobby-title-page-subheading {
+		height: 20%;
+		font-size: 2.5vh;
+	}
 }
