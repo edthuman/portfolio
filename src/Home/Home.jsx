@@ -14,7 +14,7 @@ function Home () {
         </section>
         <section id="home">
             <h1>Hi, I'm Ed</h1>
-            <p className="home-text" id="software-dev-text">Junior Software Developer</p>
+            <p className="home-text" id="software-dev-text">Software Developer</p>
             <footer id="home-footer">
                 <p className="home-text" id ="scroll-down-text">Scroll down to learn more about me!</p>
                 <p className="home-text" id="down-arrow">↓</p>
