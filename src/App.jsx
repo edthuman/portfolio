@@ -12,7 +12,8 @@ function App() {
 		const handleKeyDown = (e) => {
 			if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
 			const tag = e.target.tagName;
-			if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+			if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT")
+				return;
 
 			const horizontalSections = ["technologies", "hobbies-section"]
 				.map((id) => document.getElementById(id))
@@ -39,8 +40,55 @@ function App() {
 		return () => window.removeEventListener("keydown", handleKeyDown);
 	}, []);
 
+	// In Chrome, zooming changes section sizes but leaves scroll offsets in
+	// pixels (and doesn't reliably re-snap), so re-anchor each snap container
+	// to the section it was showing.
+	useEffect(() => {
+		const main = document.querySelector("main");
+		const containers = [
+			{ el: main, axis: "Top", size: "clientHeight" },
+			...["technologies", "hobbies-section"].map((id) => ({
+				el: document.getElementById(id),
+				axis: "Left",
+				size: "clientWidth",
+			})),
+		].filter(({ el }) => el);
+
+		const indexes = new Map(containers.map(({ el }) => [el, 0]));
+		let lastResize = 0;
+
+		const cleanups = containers.map(({ el, axis, size }) => {
+			const onScroll = () => {
+				// ignore scroll events caused by the resize itself
+				if (Date.now() - lastResize < 200) return;
+				indexes.set(el, Math.round(el[`scroll${axis}`] / el[size]));
+			};
+			el.addEventListener("scroll", onScroll, { passive: true });
+			return () => el.removeEventListener("scroll", onScroll);
+		});
+
+		const onResize = () => {
+			lastResize = Date.now();
+			containers.forEach(({ el, axis, size }) => {
+				el[`scroll${axis}`] = indexes.get(el) * el[size];
+			});
+		};
+
+		window.addEventListener("resize", onResize);
+		return () => {
+			window.removeEventListener("resize", onResize);
+			cleanups.forEach((cleanup) => cleanup());
+		};
+	}, []);
+
+	useEffect(() => {
+		// Arrow keys should be able to scroll up/down the pages
+		// In order for these keys to work, main must be focused
+		document.querySelector("main")?.focus({ preventScroll: true });
+	}, []);
+
 	return (
-		<main>
+		<main tabIndex={-1}>
 			<Home />
 			<About />
 			<Projects />

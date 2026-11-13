@@ -11,6 +11,7 @@ main {
 	width: 100vw;
 	scroll-snap-type: y mandatory;
 	scroll-snap-stop: always;
+	outline: none;
 }
 
 .page {
@@ -30,33 +31,33 @@ h2 {
 }
 
 .title-page {
-  container-type: size;
-  align-content: center;
-  display: grid;
-  grid-template-rows: auto auto;
-  justify-items: center;
-  padding: 0;
-  text-align: center;
+	container-type: size;
+	align-content: center;
+	display: grid;
+	grid-template-rows: auto auto;
+	justify-items: center;
+	padding: 0;
+	text-align: center;
 }
 
 .title-page-heading {
-  box-sizing: border-box;
-  height: auto;
-  margin: 0;
-  padding: 0 0.5cqi;
-  font-size: min(9cqi, 12cqb, 7rem);
-  line-height: 1.05;
+	box-sizing: border-box;
+	height: auto;
+	margin: 0;
+	padding: 0 0.5cqi;
+	font-size: min(9cqi, 12cqb, 7rem);
+	line-height: 1.05;
 }
 
 .title-page-subheading {
-  box-sizing: border-box;
-  height: auto;
-  max-width: 42rem;
-  margin: 2.5cqb 0 0;
-  padding: 0 2cqi;
-  font-size: min(4cqi, 3cqb, 1.75rem);
-  font-weight: 550;
-  line-height: 1.35;
+	box-sizing: border-box;
+	height: auto;
+	max-width: 42rem;
+	margin: 2.5cqb 0 0;
+	padding: 0 2cqi;
+	font-size: min(4cqi, 3cqb, 1.75rem);
+	font-weight: 550;
+	line-height: 1.35;
 }
 
 #hobby-title-page-heading,
@@ -71,45 +72,45 @@ h2 {
 }
 
 @media (max-width: 720px) {
-  .title-page-heading {
-    font-size: min(12cqi, 8cqb, 7rem);
-  }
+	.title-page-heading {
+		font-size: min(12cqi, 8cqb, 7rem);
+	}
 }
 
 .title-page {
-  container-type: size;
-  align-content: center;
-  display: grid;
-  grid-template-rows: auto auto;
-  justify-items: center;
-  padding: 0;
-  text-align: center;
+	container-type: size;
+	align-content: center;
+	display: grid;
+	grid-template-rows: auto auto;
+	justify-items: center;
+	padding: 0;
+	text-align: center;
 }
 
 .title-page-heading {
-  box-sizing: border-box;
-  height: auto;
-  margin: 0;
-  padding: 0 0.5cqi;
-  font-size: clamp(2.75rem, min(9cqi, 12cqb), 7rem);
-  line-height: 1.05;
+	box-sizing: border-box;
+	height: auto;
+	margin: 0;
+	padding: 0 0.5cqi;
+	font-size: clamp(2.75rem, min(9cqi, 12cqb), 7rem);
+	line-height: 1.05;
 }
 
 .title-page-subheading {
-  box-sizing: border-box;
-  height: auto;
-  max-width: 42rem;
-  margin: 2.5cqb 0 0;
-  padding: 0 2cqi;
-  font-size: clamp(1rem, min(4cqi, 3cqb), 1.75rem);
-  font-weight: 550;
-  line-height: 1.35;
+	box-sizing: border-box;
+	height: auto;
+	max-width: 42rem;
+	margin: 2.5cqb 0 0;
+	padding: 0 2cqi;
+	font-size: clamp(1rem, min(4cqi, 3cqb), 1.75rem);
+	font-weight: 550;
+	line-height: 1.35;
 }
 
 @media (max-width: 720px) {
-  .title-page-heading {
-    font-size: clamp(2.75rem, min(12cqi, 8cqb), 7rem);
-  }
+	.title-page-heading {
+		font-size: clamp(2.75rem, min(12cqi, 8cqb), 7rem);
+	}
 }
 
 .subheading {
