@@ -1,238 +1,239 @@
 .project-card {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: rgb(109, 104, 161);
-    border-radius: 1rem;
-    min-width: 200px;
-    max-width: 200px;
-    height: 100%;
-    margin: 2em 1em;
-    padding: 0 1em;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: rgb(109, 104, 161);
+	border-radius: 1rem;
+	min-width: 200px;
+	max-width: 200px;
+	height: 100%;
+	margin: 2em 1em;
+	padding: 0 1em;
 }
 
 .project-card:hover {
-    background-color: rgb(148, 147, 157);
-    .project-card-title, p { 
-        color: rgb(202, 202, 202);
-    };
-    img {
-        filter: contrast(40%);
-    };
+	background-color: rgb(148, 147, 157);
+	.project-card-title,
+	p {
+		color: rgb(202, 202, 202);
+	}
+	img {
+		filter: contrast(40%);
+	}
 }
 
 .project-card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-size: 8vh;
-    padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 8vh;
+	padding: 0;
 }
 
 .project-image-preview {
-    width: 100%;
-    height: 0%;
-    object-fit: scale-down;
+	width: 100%;
+	height: 0%;
+	object-fit: scale-down;
 }
 
 .project-description {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    font-weight: 500;
-    font-size: 0vh;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-weight: 500;
+	font-size: 0vh;
 }
 
 h4 {
-    width: 100%;
-    height: 1em;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0.25em 0;
-    margin: 0;
+	width: 100%;
+	height: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0.25em 0;
+	margin: 0;
 }
 
 .modal-text-area {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 0.5em;
-    height: 68%;
-    overflow: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 0.5em;
+	height: 68%;
+	overflow: scroll;
 }
 
 .modal-text {
-    width: 100%;
-    line-height: 1.5;
-    font-size: 2.4vh;
-    margin: 0 0 1em 0;
+	width: 100%;
+	line-height: 1.5;
+	font-size: 2.4vh;
+	margin: 0 0 1em 0;
 }
 
 .modal-tech-stack {
-    width: 100%;
-    margin: 0 0 1.1em 0;
-    font-size: 2.6vh;
-    text-align: center;
-    font-weight: 500;
+	width: 100%;
+	margin: 0 0 1.1em 0;
+	font-size: 2.6vh;
+	text-align: center;
+	font-weight: 500;
 }
 
 .modal-link {
-    color: white;
+	color: white;
 }
 
 .modal-link:hover {
-    color: rgb(50, 176, 249);
-    text-decoration: none;
+	color: rgb(50, 176, 249);
+	text-decoration: none;
 }
 
 .modal-button-area {
-    display: flex;
-    width: 100%;
-    height: 12%;
-    justify-content: center;
+	display: flex;
+	width: 100%;
+	height: 12%;
+	justify-content: center;
 }
 
 .modal-button {
-    margin-top: 0.1em;
-    height: 8vh;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 0.4rem;
-    border: solid 2px rgb(226, 62, 62);
-    color: rgb(226, 62, 62);
-    background-color: rgb(32, 32, 32);
-    font-size: 4vh;
-    font-weight: 800;
-    padding: 0.2em 0.3em 0.2em;
+	margin-top: 0.1em;
+	height: 8vh;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 0.4rem;
+	border: solid 2px rgb(226, 62, 62);
+	color: rgb(226, 62, 62);
+	background-color: rgb(32, 32, 32);
+	font-size: 4vh;
+	font-weight: 800;
+	padding: 0.2em 0.3em 0.2em;
 }
 
 .modal-button:hover {
-    color: white;
-    background-color: rgb(226, 62, 62);
+	color: white;
+	background-color: rgb(226, 62, 62);
 }
 
-@media screen and (min-height: 300px){
-    .project-card {
-        border-radius: 2rem;
-    };
+@media screen and (min-height: 300px) {
+	.project-card {
+		border-radius: 2rem;
+	}
 }
 
-@media screen and (min-height: 350px){
-    .project-card {
-        padding: 1rem;
-    }
-    .project-card-title {
-        font-size: 5vh;
-        height: 50%;
-        padding-top: 0.5em;
-    }
-    .project-description {
-        height: 50%;
-        font-size: 3vh;
-        padding-top: 1em;
-    }
-    .project-image-preview {
-        padding-top: 1em;
-        height: 75%;
-    }
+@media screen and (min-height: 350px) {
+	.project-card {
+		padding: 1rem;
+	}
+	.project-card-title {
+		font-size: 5vh;
+		height: 50%;
+		padding-top: 0.5em;
+	}
+	.project-description {
+		height: 50%;
+		font-size: 3vh;
+		padding-top: 1em;
+	}
+	.project-image-preview {
+		padding-top: 1em;
+		height: 75%;
+	}
 }
 
-@media screen and (min-height: 350px) and (max-width: 600px){
-    .project-description {
-        padding-top: 1em;
-    }
+@media screen and (min-height: 350px) and (max-width: 600px) {
+	.project-description {
+		padding-top: 1em;
+	}
 }
 
-@media screen and (min-height: 450px){
-    .project-card-title {
-        font-size: 4.2vh;
-    }
-    .project-description {
-        font-size: 2.7vmin;
-    }
-    h4 {
-        height: 10%;
-        font-size: 8vmin;
-    }
+@media screen and (min-height: 450px) {
+	.project-card-title {
+		font-size: 4.2vh;
+	}
+	.project-description {
+		font-size: 2.7vmin;
+	}
+	h4 {
+		height: 10%;
+		font-size: 8vmin;
+	}
 }
 
-@media screen and (max-height: 300px) {   
-    .modal-text {
-        font-size: 5vh;
-    } 
+@media screen and (max-height: 300px) {
+	.modal-text {
+		font-size: 5vh;
+	}
 }
 
 @media screen and (max-height: 450px) {
-    h4 {
-        height: 0.7em;
-        font-size: 8vh;
-        padding-bottom: 0.5em;
-    }
+	h4 {
+		height: 0.7em;
+		font-size: 8vh;
+		padding-bottom: 0.5em;
+	}
 
-    .modal-text {
-        font-size: 3vh;
-    } 
+	.modal-text {
+		font-size: 3vh;
+	}
 }
 
-@media screen and (max-height: 550px) and (min-width: 600px){
-    .modal-text {
-        font-size: 3.3vh;
-    }
-    .modal-tech-stack {
-        font-size: 3.6vh;
-    }
+@media screen and (max-height: 550px) and (min-width: 600px) {
+	.modal-text {
+		font-size: 3.3vh;
+	}
+	.modal-tech-stack {
+		font-size: 3.6vh;
+	}
 }
 
-@media screen and (max-height: 450px) and (min-width: 550px){
-    .modal-text {
-        font-size: 3.3vh;
-    }
-    .modal-tech-stack {
-        font-size: 3.6vh;
-    }
+@media screen and (max-height: 450px) and (min-width: 550px) {
+	.modal-text {
+		font-size: 3.3vh;
+	}
+	.modal-tech-stack {
+		font-size: 3.6vh;
+	}
 }
 
 @media screen and (min-height: 500px) {
-    .project-card {
-        min-width: 250px;
-        max-width: 250px;
-    }
-    .project-description {
-        font-size: 3vh;
-        font-weight: 550;
-    }
-    .modal-button {
-        height: 7.5vh
-    }
+	.project-card {
+		min-width: 250px;
+		max-width: 250px;
+	}
+	.project-description {
+		font-size: 3vh;
+		font-weight: 550;
+	}
+	.modal-button {
+		height: 7.5vh;
+	}
 }
 
-@media screen and (min-height: 500px) and (min-width: 650px){
-    h4 {
-        font-size: 6.5vh;
-    }
+@media screen and (min-height: 500px) and (min-width: 650px) {
+	h4 {
+		font-size: 6.5vh;
+	}
 }
 
-@media screen and (min-height: 550px){
-    .modal-text {
-        font-size: 2.5vh;
-    }
-    .modal-tech-stack {
-        font-size: 2.7vh;
-    }
+@media screen and (min-height: 550px) {
+	.modal-text {
+		font-size: 2.5vh;
+	}
+	.modal-tech-stack {
+		font-size: 2.7vh;
+	}
 }
 
-@media screen and (min-height: 600px){
-    .project-card {
-        min-width: 300px;
-        max-width: 300px;
-    }
+@media screen and (min-height: 600px) {
+	.project-card {
+		min-width: 300px;
+		max-width: 300px;
+	}
 }
 
 @media screen and (min-height: 950px) {
-    .project-card {
-        min-width: 400px;
-        max-width: 400px;
-    }
+	.project-card {
+		min-width: 400px;
+		max-width: 400px;
+	}
 }
