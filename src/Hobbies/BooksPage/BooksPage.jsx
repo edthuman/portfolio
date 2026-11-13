@@ -1,5 +1,3 @@
-import "./BooksPage.css";
-
 function BooksPage() {
 	return (
 		<section className="hobbies-sub-page" id="books-page" tabIndex={0}>

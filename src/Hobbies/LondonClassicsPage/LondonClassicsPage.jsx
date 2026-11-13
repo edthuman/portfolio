@@ -1,6 +1,4 @@
-import "./LondonClassicsPage.css";
-
-function LondonClassics() {
+function LondonClassicsPage() {
 	return (
 		<section
 			className="hobbies-sub-page"
@@ -50,4 +48,4 @@ function LondonClassics() {
 	);
 }
 
-export default LondonClassics;
+export default LondonClassicsPage;

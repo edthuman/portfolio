@@ -1,5 +1,3 @@
-import "./MiscellaneousPage.css";
-
 function MiscellaneousPage() {
 	return (
 		<section className="hobbies-sub-page" tabIndex={0}>
